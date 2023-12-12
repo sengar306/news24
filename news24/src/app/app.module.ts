@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopheadingComponent } from './topheading/topheading.component';
+import{HttpClientModule} from '@angular/common/http';
+import { News24apiseviceService } from './service/news24apisevice.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopheadingComponent
   ],
   imports: [
     BrowserModule,
